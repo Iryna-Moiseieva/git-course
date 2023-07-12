@@ -1,10 +1,13 @@
 # GitTutorial
 ## Список корисних команд для роботи з git
-
+### Клонувати репозиторій
 1. **git clone** - копіює репозиторій(папку з файлами) на компютер
-2. **git branch "branchName"** - створює гілку з назвою "branchName"
-3. **git checkout "branchName"** - переходить на гілку з назвою "branchName"
-4. **git checkout -b "branchName"** - створюємо гілку з назвою "branchName" і переходимо на неї
+### Створити гілку для виконання завдання
+2. **git branch** - показує список локальних гілок. Знаходячись в гілці **main**
+3. **git branch "branchName"** - створює гілку з назвою "branchName"
+4. **git checkout "branchName"** - переходить на гілку з назвою "branchName"
+5. **git checkout -b "branchName"** - створюємо гілку з назвою "branchName" і переходимо на неї
+
 5. **git add .** - зберігаємо зміни в файлах
 6. **git commit -m "commit message"** - підписуємо збереженні зміни в файлах
 7. **git push** - відправляємо зміни на сайт github
